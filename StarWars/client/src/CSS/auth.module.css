@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../font/star-jedi_[fr.allfont.net].ttf'); 
+}
+#container{
+   display: flex;
+   flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 15%;
+}
+#authInputUser{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    margin-bottom: 20px;
+    font-family: 'Star Jedi', arial; 
+    color: yellow;
+}
+
+#authInputUser:focus{
+    outline: none;
+    box-shadow: 10px;
+}
+#authInputPassword{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    margin-bottom: 20px;
+    font-family: 'Star Jedi', arial; 
+    color: yellow;
+}
+#authInputPassword:focus{
+    outline: none;
+    box-shadow: 10px;
+}
+#loginButton{
+    padding: 25px 60px;
+    margin: auto;
+    border: none;
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Star Jedi', arial; 
+    border-radius: 15px;
+}
+#loginButton:active{
+    color: white;
+}
+#title{
+    margin: auto;
+    font-family: 'Star Jedi';
+    font-size: 70px;
+    color: yellow;
+    font-style: italic;
+}

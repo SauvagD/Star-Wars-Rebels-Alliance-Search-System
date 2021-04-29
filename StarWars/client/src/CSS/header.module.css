@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../font/star-jedi_[fr.allfont.net].ttf'); 
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 150px;
+}
+
+#searchInput{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    width: 500px;
+    height: 100px;
+    font-family: 'Star Jedi';
+}
+#searchInput:focus{
+    outline: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#searchDiv{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#searchButton{
+    width: 130px;
+    height: 100px;
+    margin: auto;
+    background-color: black;
+    color: yellow;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url('../images/loupe.png');
+    background-repeat: no-repeat;
+}
+
+#searchButton::placeholder{
+    color: white;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+}
+#categoryDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+#buttonCategory{
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: black;
+    font-size: 17px;
+    color: white;
+    font-family: 'Star Jedi';
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+#buttonCategory:hover{
+    color: black;
+    background-color: white;
+}
+
+#title{
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: 'Star Jedi';
+    font-size: 70px;
+    color: yellow;
+    font-style: italic;
+}
+#buttonAuth{
+   padding: 25px 60px;
+    margin: auto;
+    border: none;
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Star Jedi', arial; 
+    border-radius: 15px;
+}
+#logo{
+    width: 40px;
+
+}

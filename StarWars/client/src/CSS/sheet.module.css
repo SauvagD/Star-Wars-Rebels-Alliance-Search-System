@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../font/star-jedi_[fr.allfont.net].ttf'); 
+}
+
+#sheetContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 30%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    border: solid white 3px;
+}
+h1{
+    margin: auto;
+    color: yellow;
+    font-family: 'Star Jedi';
+}
+h2{
+    color: white;
+    font-family: 'Star Jedi';
+    margin-left: 30px;
+}
+h3{
+    color: white;
+     margin-left: 30px;
+}
+p{
+    margin: auto;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+}

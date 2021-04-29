@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../font/star-jedi_[fr.allfont.net].ttf'); 
+}
+body{
+    background-image: url('../images/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    padding: 20px 25px;
+}
+
+#title{
+    margin: auto;
+    font-family: 'Star Jedi';
+    font-size: 70px;
+    color: yellow;
+}
+#white{
+    color: white;
+}

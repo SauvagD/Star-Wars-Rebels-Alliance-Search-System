@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../font/star-jedi_[fr.allfont.net].ttf'); 
+}
+
+#lol{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#sheetDiv{
+    display: flex;
+    flex-direction: column; 
+    background-color: black;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    border: white solid 3px
+}
+
+#name{
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Star Jedi';
+    color: yellow;
+    font-size: 25px;
+}
+
+#sheetButton{
+    padding: 15px 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+    background-color: black;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Star Jedi', arial; 
+    border-radius: 15px;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 500px;
+}
+#navMainHeader{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;left: 0;
+    /* margin: auto; */
+    height: 75px;
+}
+#headerButton{
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: 'Star Jedi';
+}
+#headerButton:hover{
+    outline: none;
+    background-color: black;
+    color: white;
+}
+#headerInput{
+    border: none;
+    font-size: 18px;
+    font-family: 'Star Jedi';
+    transition: 1s;
+    width: 237px;
+    border-right: solid black 2px;
+}
+#headerInput:focus{
+    outline: none; 
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchButton{
+    padding: 20px 20px;
+    background-color: yellow;
+    color: yellow;
+    border: none;
+    background-image: url('../images/loupe.png');
+    background-repeat: no-repeat;
+}
+#searchButton:active{
+    color: white;
+}
+#searchDiv{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 100%;
+    border-right: solid black 2px;
+}
+#logo{
+    width: 30px;
+}
